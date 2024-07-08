@@ -93,3 +93,71 @@ flex-direction: column;
     height:100%;
     width:100%;
 } */
+
+.midnight-party-container{
+    width:1320px;
+    height:600px;
+    /* border:2px solid red; */
+    margin:0 auto;
+    display:flex;
+    background-image: url("../new-year-offer-resources/images/Vectorrr.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.leftside-content{
+width:50%;
+height:600px;
+/* border:2px solid  green; */
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:30px;
+}
+.rightside-content{
+    width:50%;
+    height:600px;
+    /* border:2px solid yellow;  */
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   
+    }
+    .rightside-content img{
+        width:320px;
+        height:465px;
+    }
+
+
+
+ .leftside-content h1{
+ /* width:50%;
+height:600px;
+/* border:2px solid  green; */
+/* display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; */
+color:#FFFFFF;
+font-size: 64px;
+font-weight: 900;
+font-family: Merriweather;
+    }
+    
+ .leftside-content p{
+
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: 300;
+font-family: Inter;
+
+ }
+ #midnight-btn{
+    
+    color:#ffffff;
+    font-size: 20px;
+    font-weight: bold;
+font-family: Inter;
+
+}
