@@ -25,7 +25,7 @@ body{
  background-image: url("/new-year-offer-resources/images/Banner\ Image.png"); 
     border-radius: 16px;
  
-  background-blend-mode: overlay; */
+  background-blend-mode: overlay; 
 
 }
 .banner-content{
@@ -100,10 +100,14 @@ flex-direction: column;
     /* border:2px solid red; */
     margin:0 auto;
     display:flex;
+    background-color: rgba(0, 0, 0, 0.3);
     background-image: url("../new-year-offer-resources/images/Vectorrr.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+     background-blend-mode: overlay; 
+     margin-top: 50px; 
+
 }
 .leftside-content{
 width:50%;
@@ -114,6 +118,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding:30px;
+text-align: left;
 }
 .rightside-content{
     width:50%;
@@ -159,5 +164,58 @@ font-family: Inter;
     font-size: 20px;
     font-weight: bold;
 font-family: Inter;
+margin-right: 500px;
 
+}
+
+.address-section-container{
+    width:1320px;
+    height:482px;
+    /* border:2px solid yellow; */
+    margin:0 auto;
+    margin-top: 120px;
+    display:flex;
+    justify-content: center;
+align-items: center;
+background-color: #ff110050 ;
+}
+
+
+.address-section-content{
+width:649px;
+height:200px;
+/* border:2px solid red; */
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.address-section-content button{
+    margin-top: 48px;;
+    border: none;
+  background-color:#FF0000;
+  border-radius: 5px;
+}
+.address-section-content button span{
+    color:#FFFFFF;
+    font-size: 20px;
+font-family: Inter;
+font-weight: bold;
+/* border-radius: 10px; */
+
+}
+.address-section-content h4 span {
+    color:red;
+    font-size: 32px;
+font-family: Inter;
+font-weight: semi-bold;
+/* border-radius: 5px; */
+
+}
+.address-section-content h4  {
+    color:#070211;
+        font-size: 32px;
+    font-family: Inter;
+    font-weight: semi-bold;
+    /* border-radius: 5px; */
 }
